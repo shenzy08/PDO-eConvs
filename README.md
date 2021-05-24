@@ -2,6 +2,18 @@
 The implementation of the paper "PDO-eConvs: Partial Differential Operator Based Equivariant Convolutions" (ICML2020).
 Please contact shenzhy@pku.edu.cn if you have any question.
 
+## Prerequisites
+Tensorflow
+
+Your may refer to https://github.com/Roderickzzc/Pdo-econv-pytorch for an implementation by Pytorch.
+
+## Usage
+### MNIST-rot-12k:
+python3 mnist.py
+
+### CIFAR10/100
+python3 cifar.py --aug True --dataset cifar10
+
 
 ## Experimental Results
 Error rates on MNIST-rot-12k (without data augmentation).
