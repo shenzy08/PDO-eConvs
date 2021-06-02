@@ -7,6 +7,9 @@ Tensorflow
 
 Your may refer to https://github.com/Roderickzzc/Pdo-econv-pytorch for an implementation by Pytorch.
 
+## Datasets
+MNIST-rot-12k can be downloaded from http://www.iro.umontreal.ca/~lisa/icml2007data/mnist_rotation_new.zip, and CIFAR from http://www.cs.toronto.edu/~kriz/cifar.html
+
 ## Usage
 ### MNIST-rot-12k:
 python3 mnist.py
